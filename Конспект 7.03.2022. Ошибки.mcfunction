@@ -65,11 +65,11 @@ public int Age  //Совйство для чтения и записи
     try
     {
       if(value <= 0)
-        throw new Excetpion("Age can't be less than zero");
+        throw new Exception ("Age can't be less than zero");
       else
         a = value;
     }
-    catch(ExceptionError)
+    catch(Exception Error)
     {
         Console.WriteLine("Error:" + error.Message);
     }
